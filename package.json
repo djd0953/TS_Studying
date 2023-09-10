@@ -3,14 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "dev":"parcel ./index.html",
-    "build":"parcel build ./index.html"
+    "dev": "parcel ./index.html",
+    "build": "parcel build ./index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/lodash": "^4.14.198",
     "parcel": "^2.9.3",
     "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21"
   }
 }
